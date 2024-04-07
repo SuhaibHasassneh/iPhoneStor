@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+.parent{
+    width: 1000px;
+    height: 1000px;
+    margin: 30px auto;
+    padding: 30px;
+    border: 2px solid #008cff;
+    
+}
+h1{
+    margin-top: 0;
+}
+.child{
+    width: 23%;
+    margin: 0 0 10px 10px;
+    padding: 10px;
+    border: 2px solid gray ;
+    border-radius: 10px;
+    background-color:white;
+    text-align: left;
+    float:left;
+}
+img{
+   width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+p{
+    color: gray;
+}
+
+.one{
+    color: green;
+    font-weight: bold;
+}
+.two{
+    color: red;
+    font-size: 13px;
+}
+
+.first-button{
+    width: 70%;
+    margin-top: 10px;
+    background-color: #008cff;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-color: #008cff;
+    border-radius: 0 0 0 6px;
+    
+}
+.first-button span{
+    margin-left: 5px;
+}
+.second-button{
+    width: 27%;
+    padding: 10px;
+    background-color: white;
+    border-color: #008cff;
+    
+}
+
+
